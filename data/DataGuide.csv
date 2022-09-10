@@ -22,6 +22,17 @@ A5_11,Agree/Disagree: The issue of homelessness is something I worry about,Categ
 A5_12,Agree/Disagree: I avoid homeless people when I see them on the streets,Categorical,Opinions of Homeless and Mental Illness
 A5_13,Agree/Disagree: The homeless are to blame for their situation,Categorical,Opinions of Homeless and Mental Illness
 A5_14,Agree/Disagree: It is frightening to think of homeless people living near me,Categorical,Opinions of Homeless and Mental Illness
+A5_15,Agree/Disagree: It is frightening to think of people with mental illness living near me ,Categorical,Opinions of Homeless and Mental Illness
+A5_16,"Agree/Disagree: If a person with a mental illness applied for a job, I would be less likely to hire them ",Categorical,Opinions of Homeless and Mental Illness
+A5_17,"Agree/Disagree: In the interest of public safety, homeless people should not be allowed to gather in public ",Categorical,Opinions of Homeless and Mental Illness
+A5_18,Agree/Disagree: Laziness on the part of the homeless contributes to homelessness ,Categorical,Opinions of Homeless and Mental Illness
+A5_19,Agree/Disagree: Irresponsible behavior on the part of the homeless contributes to homelessness ,Categorical,Opinions of Homeless and Mental Illness
+A5_20,"Agree/Disagree: Even when homeless people seem all right, it is important to remember that they may be dangerous ",Categorical,Opinions of Homeless and Mental Illness
+A5_21,Agree/Disagree: I am careful not to come in physical contact with a homeless person ,Categorical,Opinions of Homeless and Mental Illness
+A5_22,Agree/Disagree: Homelessness leads to an unsanitary environment ,Categorical,Opinions of Homeless and Mental Illness
+A5_23,Agree/Disagree: Homelessness is a large problem ,Categorical,Opinions of Homeless and Mental Illness
+A5_24,Agree/Disagree: The problem of homelessness has gotten worse in the past 5 years ,Categorical,Opinions of Homeless and Mental Illness
+A5_25,Agree/Disagree: I feel that I can help make a positive change to homelessness ,Categorical,Opinions of Homeless and Mental Illness
 A6_1,How often do you: give money to the homeless,Categorical,Participant Behavior
 A6_2,How often do you: buy food for the homeless,Categorical,Participant Behavior
 A6_3,How often do you: volunteer in a place that provides services to the homeless,Categorical,Participant Behavior
@@ -62,6 +73,7 @@ A8_4,Agree/Disagree: An ideal society requires some groups to be on top and othe
 A8_5,Agree/Disagree: No one group should dominate society,Categorical,Social Dominance/Modern Racism Measure
 A8_6,Agree/Disagree: We should not try to guarantee that every group has the same quality of life,Categorical,Social Dominance/Modern Racism Measure
 A8_7,"Agree/Disagree: If certain groups stayed in their place, we would have fewer problems",Categorical,Social Dominance/Modern Racism Measure
+A8_8,"Agree/Disagree: No matter how much effort it takes, we ought to strive to ensure that all groups have the same chance in life ",Categorical,Social Dominance/Modern Racism Measure
 A9_1,Policy: Building more affordable housing for the homeless,Categorical,Policy Measures
 A9_2,Policy: Building more shelters and other emergency housing for homeless,Categorical,Policy Measures
 A9_3,Policy: Providing free alcohol and drug treatment programs for the homeless,Categorical,Policy Measures
@@ -90,49 +102,49 @@ A9_25,Policy: Relocating homeless people to a designated area where they can liv
 A10_1,Agree/Disagree: The homeless are responsible for taking care of themselves,Categorical,Role of Government
 A10_2,Agree/Disagree: The homeless are entitled to help from the government,Categorical,Role of Government
 A10_3,Approximately how much more/less money should the government allocate towards solving the homelessness problem?,Categorical,Role of Government
-A11_1,Estimated % of homeless population: Male,Categorical,Homeless Demographics
-A11_2,Estimated % of homeless population: Female,Categorical,Homeless Demographics
-A12_1,Estimated % of homeless population: LGBTQ+,Categorical,Homeless Demographics
-A13_1,Estimated % of homeless population: Under age 18,Categorical,Homeless Demographics
-A13_2,Estimated % of homeless population: Over age 65,Categorical,Homeless Demographics
-A14_1,Estimated % of homeless population: White,Categorical,Homeless Demographics
-A14_2,Estimated % of homeless population: Black/African American,Categorical,Homeless Demographics
-A14_3,Estimated % of homeless population: Latino/Hispanic,Categorical,Homeless Demographics
-A14_4,Estimated % of homeless population: Native American/American Indian,Categorical,Homeless Demographics
-A14_5,Estimated % of homeless population: Asian/Pacific Islander,Categorical,Homeless Demographics
-A15_1,Estimated % of homeless population: Families,Categorical,Homeless Demographics
-A15_2,Estimated % of homeless population: Single adults,Categorical,Homeless Demographics
-A16_1,Estimated % of homeless population: Sheltered,Categorical,Homeless Demographics
-A16_2,Estimated % of homeless population: Unsheltered,Categorical,Homeless Demographics
-A17_1,Average amount of time since a homeless person has last had housing,Categorical,Homeless Demographics
-A18_1,Estimated % of homeless population: Chronically homeless,Categorical,Homeless Demographics
-A19_1,Estimated % of homeless population: Any mental illness,Categorical,Homeless Demographics
-A19_2,Estimated % of homeless population: Schizophrenia,Categorical,Homeless Demographics
-A19_3,Estimated % of homeless population: Depression,Categorical,Homeless Demographics
-A19_4,Estimated % of homeless population: Personality Disorder,Categorical,Homeless Demographics
-A20_1,Estimated % of homeless population: Lifetime history of an alcohol or drug disorder,Categorical,Homeless Demographics
-A20_2,Estimated % of homeless population: used alcohol,Categorical,Homeless Demographics
-A20_3,Estimated % of homeless population: used cocaine or crack,Categorical,Homeless Demographics
-A20_4,Estimated % of homeless population: used methamphetamines,Categorical,Homeless Demographics
-A20_5,Estimated % of homeless population: used marijuana/cannabis,Categorical,Homeless Demographics
-A20_6,Estimated % of homeless population: used cigarettes/vape,Categorical,Homeless Demographics
-A21_1,Estimated % of homeless women: domestic violence,Categorical,Homeless Demographics
-A22_1,Estimated % of homeless population: physically abused as a child,Categorical,Homeless Demographics
-A22_2,Estimated % of homeless population: sexually abused as a child,Categorical,Homeless Demographics
-A23_1,Estimated % homeless population: veterans,Categorical,Homeless Demographics
-A24_1,How much do you think is spent on one emergency department visit per homeless person?,Categorical,Homeless Demographics
+A11_1,Estimated % of homeless population: Male,Scalar,Homeless Demographics
+A11_2,Estimated % of homeless population: Female,Scalar,Homeless Demographics
+A12_3,Estimated % of homeless population: LGBTQ+,Scalar,Homeless Demographics
+A13_1,Estimated % of homeless population: Under age 18,Scalar,Homeless Demographics
+A13_2,Estimated % of homeless population: Over age 65,Scalar,Homeless Demographics
+A14_1,Estimated % of homeless population: White,Scalar,Homeless Demographics
+A14_2,Estimated % of homeless population: Black/African American,Scalar,Homeless Demographics
+A14_3,Estimated % of homeless population: Latino/Hispanic,Scalar,Homeless Demographics
+A14_4,Estimated % of homeless population: Native American/American Indian,Scalar,Homeless Demographics
+A14_5,Estimated % of homeless population: Asian/Pacific Islander,Scalar,Homeless Demographics
+A15_1,Estimated % of homeless population: Families,Scalar,Homeless Demographics
+A15_2,Estimated % of homeless population: Single adults,Scalar,Homeless Demographics
+A16_1,Estimated % of homeless population: Sheltered,Scalar,Homeless Demographics
+A16_2,Estimated % of homeless population: Unsheltered,Scalar,Homeless Demographics
+A17_1,Average amount of time since a homeless person has last had housing,Scalar,Homeless Demographics
+A18_1,Estimated % of homeless population: Chronically homeless,Scalar,Homeless Demographics
+A19_1,Estimated % of homeless population: Any mental illness,Scalar,Homeless Demographics
+A19_2,Estimated % of homeless population: Schizophrenia,Scalar,Homeless Demographics
+A19_3,Estimated % of homeless population: Depression,Scalar,Homeless Demographics
+A19_4,Estimated % of homeless population: Personality Disorder,Scalar,Homeless Demographics
+A20_1,Estimated % of homeless population: Lifetime history of an alcohol or drug disorder,Scalar,Homeless Demographics
+A20_2,Estimated % of homeless population: used alcohol,Scalar,Homeless Demographics
+A20_3,Estimated % of homeless population: used cocaine or crack,Scalar,Homeless Demographics
+A20_4,Estimated % of homeless population: used methamphetamines,Scalar,Homeless Demographics
+A20_5,Estimated % of homeless population: used marijuana/cannabis,Scalar,Homeless Demographics
+A20_6,Estimated % of homeless population: used cigarettes/vape,Scalar,Homeless Demographics
+A21_1,Estimated % of homeless women: domestic violence,Scalar,Homeless Demographics
+A22_1,Estimated % of homeless population: physically abused as a child,Scalar,Homeless Demographics
+A22_2,Estimated % of homeless population: sexually abused as a child,Scalar,Homeless Demographics
+A23_1,Estimated % homeless population: veterans,Scalar,Homeless Demographics
+A24_1,How much do you think is spent on one emergency department visit per homeless person?,Scalar,Homeless Demographics
 A25_1,"Do you think members of the homeless population commit suicide more than, less than, or the same as the general population?",Categorical,Homeless Demographics
-A25_2,"If more, estimate how much more likely suicide is for the homeless individuals relative to the general population",Categorical,Homeless Demographics
-A25_3,"If less, estimate how much more likely suicide is for the general population relative to homeless individuals",Categorical,Homeless Demographics
-A26_1,% of homeless in LA: tested positive for COVID-19,Categorical,Homeless Demographics
-A27_1,"In LA, what do you think is the cost of housing a homeless individual in a shelter per month?",Categorical,Homeless Demographics
-A27_2,"In LA, what do you think is the cost of housing a homeless individual in a mental hospital per month?",Categorical,Homeless Demographics
+A25_2,"If more, estimate how much more likely suicide is for the homeless individuals relative to the general population",Scalar,Homeless Demographics
+A25_3,"If less, estimate how much more likely suicide is for the general population relative to homeless individuals",Scalar,Homeless Demographics
+A26_1,% of homeless in LA: tested positive for COVID-19,Scalar,Homeless Demographics
+A27_1,"In LA, what do you think is the cost of housing a homeless individual in a shelter per month?",Scalar,Homeless Demographics
+A27_2,"In LA, what do you think is the cost of housing a homeless individual in a mental hospital per month?",Scalar,Homeless Demographics
 A28_1,What is your age?,Scalar,Participant Demographics
 A28_2,"What is your gender? [1 = Male, 2 = Female, 3 = Nonbinary/Agender, 4 = Prefer not to say]",Categorical,Participant Demographics
 A28_3,"What is your ethnicity? [1 = white, 2 = Hispanic/Latino, 3 = Black or African American, 4 = Native American or American Indian, 5 = Asian/Pacific Islander, 6 = Multiple ethnicities, 7 = Other, 8 = Prefer not to say]",Categorical,Participant Demographics
 A28_4,Estimate the yearly income of your household.,Scalar,Participant Demographics
 A28_5,How many years have you lived in CA?,Scalar,Participant Demographics
-A28_6,What county in California do you live in?,Categorical,Participant Demographics
+A28_6,What county in California do you live in?,Character,Participant Demographics
 A28_7,"How often do you see homeless individuals in your community? [1 = Almost always, 2 = Sometimes, 3 = Rarely, 4 = Never]",Categorical,Participant Demographics
 A28_8,Have you ever been homeless?,Binary,Participant Demographics
 A28_9,"Which political party do you most identify with? [1 = Democrat, 2 = Republican, 3 = Independent, 4 = Other, 5 = None/Apolitical]",Categorical,Participant Demographics
@@ -141,4 +153,3 @@ A29_1,"For our analyses, it is important that we only include responses who answ
 A29_2,"How carefully did you read the survey items when you were completing them? 
  [Not at all = 1, A little = 2, Somewhat = 3, Mostly = 4, Very = 5, Extremely = 6]",Categorical,Attention Check Questions
 A29_3,Have you taken this survey before?,Binary,Attention Check Questions
-A30_1,RANDOM ID,Categorical,Attention Check Questions
