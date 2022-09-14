@@ -22,17 +22,17 @@ A5_11,Agree/Disagree: The issue of homelessness is something I worry about,Categ
 A5_12,Agree/Disagree: I avoid homeless people when I see them on the streets,Categorical,Opinions of Homeless and Mental Illness,FALSE
 A5_13,Agree/Disagree: The homeless are to blame for their situation,Categorical,Opinions of Homeless and Mental Illness,FALSE
 A5_14,Agree/Disagree: It is frightening to think of homeless people living near me,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_15 ,Agree/Disagree: It is frightening to think of people with mental illness living near me ,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_16 ,"Agree/Disagree: If a person with a mental illness applied for a job, I would be less likely to hire them ",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_17 ,"Agree/Disagree: In the interest of public safety, homeless people should not be allowed to gather in public ",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_18 ,Agree/Disagree: Laziness on the part of the homeless contributes to homelessness ,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_19 ,Agree/Disagree: Irresponsible behavior on the part of the homeless contributes to homelessness ,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_20 ,"Agree/Disagree: Even when homeless people seem all right, it is important to remember that they may be dangerous ",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_21 ,Agree/Disagree: I am careful not to come in physical contact with a homeless person ,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_22 ,Agree/Disagree: Homelessness leads to an unsanitary environment ,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_23,Agree/Disagree: Homelessness is a large problem ,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_24,Agree/Disagree: The problem of homelessness has gotten worse in the past 5 years ,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_25,Agree/Disagree: I feel that I can help make a positive change to homelessness ,Categorical,Opinions of Homeless and Mental Illness,TRUE
+A5_15,Agree/Disagree: It is frightening to think of people with mental illness living near me?,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_16,"Agree/Disagree: If a person with a mental illness applied for a job, I would be less likely to hire them?",Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_17,"Agree/Disagree: In the interest of public safety, homeless people should not be allowed to gather in public?",Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_18,Agree/Disagree: Laziness on the part of the homeless contributes to homelessness?,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_19,Agree/Disagree: Irresponsible behavior on the part of the homeless contributes to homelessness?,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_20,"Agree/Disagree: Even when homeless people seem all right, it is important to remember that they may be dangerous?",Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_21,Agree/Disagree: I am careful not to come in physical contact with a homeless person?,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_22,Agree/Disagree: Homelessness leads to an unsanitary environment?,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_23,Agree/Disagree: Homelessness is a large problem?,Categorical,Opinions of Homeless and Mental Illness,TRUE
+A5_24,Agree/Disagree: The problem of homelessness has gotten worse in the past 5 years?,Categorical,Opinions of Homeless and Mental Illness,TRUE
+A5_25,Agree/Disagree: I feel that I can help make a positive change to homelessness?,Categorical,Opinions of Homeless and Mental Illness,TRUE
 A6_1,How often do you: give money to the homeless,Categorical,Participant Behavior,FALSE
 A6_2,How often do you: buy food for the homeless,Categorical,Participant Behavior,FALSE
 A6_3,How often do you: volunteer in a place that provides services to the homeless,Categorical,Participant Behavior,FALSE
