@@ -1,4 +1,6 @@
-library(dplyr)
+packages <- c("dplyr", "readr", "tibble")
+install.packages(setdiff(packages, rownames(installed.packages())))
+lapply(packages, require, character.only = TRUE)
 
 ###Load Data and Data Guide
 load('data/homeless_survey.RData')
@@ -10,9 +12,3 @@ vars2num = c('Progress','Duration..in.seconds.',vars2num) #might use Progress an
 
 df[,vars2num] = apply(df[,vars2num],2,as.numeric)
 str(df)
-
-
-
-
-
-
