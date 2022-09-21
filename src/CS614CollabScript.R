@@ -4,7 +4,6 @@ install.packages(setdiff(packages, rownames(installed.packages())))
 lapply(packages, require, character.only = TRUE)
 source('src/plotter.R', 'src/preprocess.R')
 
-
 ###Load Data and Data Guide
 load('data/homeless_survey.RData')
 dg = read.csv('data/DataGuide.csv')
