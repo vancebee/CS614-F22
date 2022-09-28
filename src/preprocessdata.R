@@ -139,7 +139,7 @@ df$A28_6[df$A28_6 %in% c("san mateo","santa cruz")] = "santa clara"
 
 sort(table(df['A28_6']), decreasing = TRUE)
 
-# attention checks
+#####Establish Inclusion Criteria#####
 df$trust_obs = df %>% select(A5_8, A7_17, A9_12, A29_1, A29_2, A29_3) %>%
   mutate(A5_8_b = case_when(A5_8 == '5' ~ 1, TRUE ~ 0),
          A7_17_b = case_when(A7_17 == '2' ~ 1, TRUE ~ 0),
