@@ -8,142 +8,143 @@ A2_6,Estimated % of total US population: Asian/Pacific Islander,Scalar,US popula
 A3_1,Estimated % of total US population: physically abused as a child,Scalar,US population demographics,FALSE
 A3_2,Estimated % of total US population: sexually abused as a child,Scalar,US population demographics,FALSE
 A4_1,Estimated % of total US population: veterans,Scalar,US population demographics,FALSE
-A5_1,Agree/Disagree: Homeless people are more likely to commit violent crimes than other people,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_2,Agree/Disagree: Mentally ill homeless people are more dangerous than homeless people without a mental illness,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_3,Agree/Disagree: Homeless people are not able to hold a job,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_4,"Agree/Disagree: If a homeless person applied for a job, I would be very likely to hire them",Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_5,Agree/Disagree: People with mental illness are not able to hold a job,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_6,"Agree/Disagree: The more homeless people there are in an area, the worse the neighborhood becomes",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_7,Agree/Disagree: It’s only natural to be afraid of a person who lives on the street,Categorical,Opinions of Homeless and Mental Illness,FALSE
+A5_1,Agree/Disagree: Homeless people are more likely to commit violent crimes than other people,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_2,Agree/Disagree: Mentally ill homeless people are more dangerous than homeless people without a mental illness,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_3,Agree/Disagree: Homeless people are not able to hold a job,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_4,"Agree/Disagree: If a homeless person applied for a job, I would be very likely to hire them",Integer,Opinions of Homeless and Mental Illness,TRUE
+A5_5,Agree/Disagree: People with mental illness are not able to hold a job,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_6,"Agree/Disagree: The more homeless people there are in an area, the worse the neighborhood becomes",Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_7,Agree/Disagree: It’s only natural to be afraid of a person who lives on the street,Integer,Opinions of Homeless and Mental Illness,FALSE
 A5_8,Attention Check: “Strongly Agree”,Attention Check,Opinions of Homeless and Mental Illness,FALSE
-A5_9,Agree/Disagree: I feel sympathy towards homeless people,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_10,Agree/Disagree: I feel sympathy for individuals with mental illness,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_11,Agree/Disagree: The issue of homelessness is something I worry about,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_12,Agree/Disagree: I avoid homeless people when I see them on the streets,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_13,Agree/Disagree: The homeless are to blame for their situation,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_14,Agree/Disagree: It is frightening to think of homeless people living near me,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_15,Agree/Disagree: It is frightening to think of people with mental illness living near me?,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_16,"Agree/Disagree: If a person with a mental illness applied for a job, I would be less likely to hire them?",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_17,"Agree/Disagree: In the interest of public safety, homeless people should not be allowed to gather in public?",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_18,Agree/Disagree: Laziness on the part of the homeless contributes to homelessness?,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_19,Agree/Disagree: Irresponsible behavior on the part of the homeless contributes to homelessness?,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_20,"Agree/Disagree: Even when homeless people seem all right, it is important to remember that they may be dangerous?",Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_21,Agree/Disagree: I am careful not to come in physical contact with a homeless person?,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_22,Agree/Disagree: Homelessness leads to an unsanitary environment?,Categorical,Opinions of Homeless and Mental Illness,FALSE
-A5_23,Agree/Disagree: Homelessness is a large problem?,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_24,Agree/Disagree: The problem of homelessness has gotten worse in the past 5 years?,Categorical,Opinions of Homeless and Mental Illness,TRUE
-A5_25,Agree/Disagree: I feel that I can help make a positive change to homelessness?,Categorical,Opinions of Homeless and Mental Illness,TRUE
+A5_9,Agree/Disagree: I feel sympathy towards homeless people,Integer,Opinions of Homeless and Mental Illness,TRUE
+A5_10,Agree/Disagree: I feel sympathy for individuals with mental illness,Integer,Opinions of Homeless and Mental Illness,TRUE
+A5_11,Agree/Disagree: The issue of homelessness is something I worry about,Integer,Opinions of Homeless and Mental Illness,TRUE
+A5_12,Agree/Disagree: I avoid homeless people when I see them on the streets,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_13,Agree/Disagree: The homeless are to blame for their situation,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_14,Agree/Disagree: It is frightening to think of homeless people living near me,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_15,Agree/Disagree: It is frightening to think of people with mental illness living near me?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_16,"Agree/Disagree: If a person with a mental illness applied for a job, I would be less likely to hire them?",Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_17,"Agree/Disagree: In the interest of public safety, homeless people should not be allowed to gather in public?",Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_18,Agree/Disagree: Laziness on the part of the homeless contributes to homelessness?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_19,Agree/Disagree: Irresponsible behavior on the part of the homeless contributes to homelessness?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_20,"Agree/Disagree: Even when homeless people seem all right, it is important to remember that they may be dangerous?",Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_21,Agree/Disagree: I am careful not to come in physical contact with a homeless person?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_22,Agree/Disagree: Homelessness leads to an unsanitary environment?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_23,Agree/Disagree: Homelessness is a large problem?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_24,Agree/Disagree: The problem of homelessness has gotten worse in the past 5 years?,Integer,Opinions of Homeless and Mental Illness,FALSE
+A5_25,Agree/Disagree: I feel that I can help make a positive change to homelessness?,Integer,Opinions of Homeless and Mental Illness,TRUE
 A6_1,How often do you: give money to the homeless,Categorical,Participant Behavior,FALSE
 A6_2,How often do you: buy food for the homeless,Categorical,Participant Behavior,FALSE
 A6_3,How often do you: volunteer in a place that provides services to the homeless,Categorical,Participant Behavior,FALSE
 A6_4,How often do you: volunteer at or donate to a food bank,Categorical,Participant Behavior,FALSE
 A6_5,How often do you: attend religious services or ceremonies at a place of worship,Categorical,Participant Behavior,FALSE
 A6_6,How often do you: have a conversation with a homeless individual,Categorical,Participant Behavior,FALSE
-A7_1,Causes of homelessness: Drug and/or alcohol abuse,Categorical,Causes of homelessness,FALSE
-A7_2,Causes of homelessness: Mental illness,Categorical,Causes of homelessness,FALSE
-A7_3,Causes of homelessness: Job loss,Categorical,Causes of homelessness,FALSE
-A7_4,Causes of homelessness: Insufficient income,Categorical,Causes of homelessness,FALSE
-A7_5,Causes of homelessness: Poor education,Categorical,Causes of homelessness,FALSE
-A7_6,Causes of homelessness: Domestic violence,Categorical,Causes of homelessness,FALSE
-A7_7,Causes of homelessness: Lack of affordable housing,Categorical,Causes of homelessness,FALSE
-A7_8,Causes of homelessness: Income inequality,Categorical,Causes of homelessness,FALSE
-A7_9,Causes of homelessness: Racial discrimination,Categorical,Causes of homelessness,FALSE
-A7_10,Causes of homelessness: Unfair landlord practices,Categorical,Causes of homelessness,FALSE
-A7_11,Causes of homelessness: Poor rental conditions,Categorical,Causes of homelessness,FALSE
-A7_12,Causes of homelessness: Home foreclosure,Categorical,Causes of homelessness,FALSE
-A7_13,Causes of homelessness: Shortage of government aid for poor people,Categorical,Causes of homelessness,FALSE
-A7_14,"Causes of homelessness: Shortage of affordable, effective drug and alcohol treatment",Categorical,Causes of homelessness,FALSE
-A7_15,Causes of homelessness: Family conflict,Categorical,Causes of homelessness,FALSE
-A7_16,Causes of homelessness: Traumatic event,Categorical,Causes of homelessness,FALSE
+A7_1,Causes of homelessness: Drug and/or alcohol abuse,Integer,Causes of homelessness,FALSE
+A7_2,Causes of homelessness: Mental illness,Integer,Causes of homelessness,FALSE
+A7_3,Causes of homelessness: Job loss,Integer,Causes of homelessness,FALSE
+A7_4,Causes of homelessness: Insufficient income,Integer,Causes of homelessness,FALSE
+A7_5,Causes of homelessness: Poor education,Integer,Causes of homelessness,FALSE
+A7_6,Causes of homelessness: Domestic violence,Integer,Causes of homelessness,FALSE
+A7_7,Causes of homelessness: Lack of affordable housing,Integer,Causes of homelessness,FALSE
+A7_8,Causes of homelessness: Income inequality,Integer,Causes of homelessness,FALSE
+A7_9,Causes of homelessness: Racial discrimination,Integer,Causes of homelessness,FALSE
+A7_10,Causes of homelessness: Unfair landlord practices,Integer,Causes of homelessness,FALSE
+A7_11,Causes of homelessness: Poor rental conditions,Integer,Causes of homelessness,FALSE
+A7_12,Causes of homelessness: Home foreclosure,Integer,Causes of homelessness,FALSE
+A7_13,Causes of homelessness: Shortage of government aid for poor people,Integer,Causes of homelessness,FALSE
+A7_14,"Causes of homelessness: Shortage of affordable, effective drug and alcohol treatment",Integer,Causes of homelessness,FALSE
+A7_15,Causes of homelessness: Family conflict,Integer,Causes of homelessness,FALSE
+A7_16,Causes of homelessness: Traumatic event,Integer,Causes of homelessness,FALSE
 A7_17,Attention check: Somewhat disagree,Attention Check,Causes of homelessness,FALSE
-A7_18,Causes of homelessness: An economic system that favors the rich over the poor,Categorical,Causes of homelessness,FALSE
-A7_19,Causes of homelessness: Physical illness and handicaps,Categorical,Causes of homelessness,FALSE
-A7_20,Causes of homelessness: Laziness,Categorical,Causes of homelessness,FALSE
-A7_21,Causes of homelessness: Their choice to be homeless,Categorical,Causes of homelessness,FALSE
-A7_22,Causes of homelessness: Bad luck,Categorical,Causes of homelessness,FALSE
-A7_23,Causes of homelessness: Medical emergency,Categorical,Causes of homelessness,FALSE
-A7_24,Causes of homelessness: Premature release from a mental hospital,Categorical,Causes of homelessness,FALSE
-A7_25,Causes of homelessness: Criminal history,Categorical,Causes of homelessness,FALSE
-A7_26,Causes of homelessness: Veteran status,Categorical,Causes of homelessness,FALSE
-A7_27,Causes of homelessness: Lax enforcement of overnight camping regulations,Categorical,Causes of homelessness,FALSE
-A8_1,Agree/Disagree: Discrimination is no longer a problem in the US,Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_2,Agree/Disagree: It is easy to understand the anger of minority groups in America,Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_3,"Agree/Disagree: Over the past few years, the government and news media have shown more respect to minorities than they deserve",Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_4,Agree/Disagree: An ideal society requires some groups to be on top and others to be on the bottom,Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_5,Agree/Disagree: No one group should dominate society,Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_6,Agree/Disagree: We should not try to guarantee that every group has the same quality of life,Categorical,Social Dominance/Modern Racism Measure,FALSE
-A8_7,"Agree/Disagree: If certain groups stayed in their place, we would have fewer problems",Categorical,Social Dominance/Modern Racism Measure,FALSE
-A9_1,Policy: Building more affordable housing for the homeless,Categorical,Policy Measures,TRUE
-A9_2,Policy: Building more shelters and other emergency housing for homeless,Categorical,Policy Measures,TRUE
-A9_3,Policy: Providing free alcohol and drug treatment programs for the homeless,Categorical,Policy Measures,TRUE
-A9_4,Policy: Mental hospitals to treat the homeless with mental illness,Categorical,Policy Measures,TRUE
-A9_5,Policy: Welfare benefits for the homeless,Categorical,Policy Measures,TRUE
-A9_6,Policy: Prioritizing assistance towards women and children,Categorical,Policy Measures,TRUE
-A9_7,Policy: Education for the public about mental illness,Categorical,Policy Measures,TRUE
-A9_8,Policy: Raising the minimum wage as a way to reduce homelessness,Categorical,Policy Measures,TRUE
-A9_9,Policy: Job training,Categorical,Policy Measures,TRUE
-A9_10,Policy: Affordable health insurance and/or healthcare,Categorical,Policy Measures,TRUE
-A9_11,Policy: Access to food,Categorical,Policy Measures,TRUE
+A7_18,Causes of homelessness: An economic system that favors the rich over the poor,Integer,Causes of homelessness,FALSE
+A7_19,Causes of homelessness: Physical illness and handicaps,Integer,Causes of homelessness,FALSE
+A7_20,Causes of homelessness: Laziness,Integer,Causes of homelessness,FALSE
+A7_21,Causes of homelessness: Their choice to be homeless,Integer,Causes of homelessness,FALSE
+A7_22,Causes of homelessness: Bad luck,Integer,Causes of homelessness,FALSE
+A7_23,Causes of homelessness: Medical emergency,Integer,Causes of homelessness,FALSE
+A7_24,Causes of homelessness: Premature release from a mental hospital,Integer,Causes of homelessness,FALSE
+A7_25,Causes of homelessness: Criminal history,Integer,Causes of homelessness,FALSE
+A7_26,Causes of homelessness: Veteran status,Integer,Causes of homelessness,FALSE
+A7_27,Causes of homelessness: Lax enforcement of overnight camping regulations,Integer,Causes of homelessness,FALSE
+A8_1,Agree/Disagree: Discrimination is no longer a problem in the US,Integer,Social Dominance/Modern Racism Measure,FALSE
+A8_2,Agree/Disagree: It is easy to understand the anger of minority groups in America,Integer,Social Dominance/Modern Racism Measure,TRUE
+A8_3,"Agree/Disagree: Over the past few years, the government and news media have shown more respect to minorities than they deserve",Integer,Social Dominance/Modern Racism Measure,FALSE
+A8_4,Agree/Disagree: An ideal society requires some groups to be on top and others to be on the bottom,Integer,Social Dominance/Modern Racism Measure,FALSE
+A8_5,Agree/Disagree: No one group should dominate society,Integer,Social Dominance/Modern Racism Measure,TRUE
+A8_6,Agree/Disagree: We should not try to guarantee that every group has the same quality of life,Integer,Social Dominance/Modern Racism Measure,FALSE
+A8_7,"Agree/Disagree: If certain groups stayed in their place, we would have fewer problems",Integer,Social Dominance/Modern Racism Measure,FALSE
+A8_8,"Agree/Disagree: If certain groups stayed in their place, we would have fewer problems",Integer,Social Dominance/Modern Racism Measure,TRUE
+A9_1,Policy: Building more affordable housing for the homeless,Integer,Policy Measures,TRUE
+A9_2,Policy: Building more shelters and other emergency housing for homeless,Integer,Policy Measures,TRUE
+A9_3,Policy: Providing free alcohol and drug treatment programs for the homeless,Integer,Policy Measures,TRUE
+A9_4,Policy: Mental hospitals to treat the homeless with mental illness,Integer,Policy Measures,TRUE
+A9_5,Policy: Welfare benefits for the homeless,Integer,Policy Measures,TRUE
+A9_6,Policy: Prioritizing assistance towards women and children,Integer,Policy Measures,TRUE
+A9_7,Policy: Education for the public about mental illness,Integer,Policy Measures,TRUE
+A9_8,Policy: Raising the minimum wage as a way to reduce homelessness,Integer,Policy Measures,TRUE
+A9_9,Policy: Job training,Integer,Policy Measures,TRUE
+A9_10,Policy: Affordable health insurance and/or healthcare,Integer,Policy Measures,TRUE
+A9_11,Policy: Access to food,Integer,Policy Measures,TRUE
 A9_12,Attention check: “Strongly disagree”,Attention Check,Policy Measures,FALSE
-A9_13,Policy: Homeless shelters that require people to be alcohol and drug-free,Categorical,Policy Measures,FALSE
-A9_14,Policy: Committing homeless people with serious mental illness to mental hospitals for treatment,Categorical,Policy Measures,TRUE
-A9_15,Policy: Increasing government aid to the homeless,Categorical,Policy Measures,TRUE
-A9_16,Policy: Bans on sleeping in public areas,Categorical,Policy Measures,FALSE
-A9_17,Policy: Bans on begging or panhandling,Categorical,Policy Measures,FALSE
-A9_18,Policy: Building more low-income housing that homeless people can afford,Categorical,Policy Measures,TRUE
-A9_19,Policy: Making homeless people take care of themselves by cutting off welfare benefits,Categorical,Policy Measures,FALSE
-A9_20,Policy: Increasing the minimum wage that employers must pay,Categorical,Policy Measures,TRUE
-A9_21,Policy: “Homeless sweeps”,Categorical,Policy Measures,FALSE
-A9_22,Policy: “Housing First”,Categorical,Policy Measures,TRUE
-A9_23,Policy: Converting old hotels and buildings to homeless shelters/live-in treatment centers,Categorical,Policy Measures,TRUE
-A9_24,Policy: Rehabilitation centers that have no requirements regarding alcohol and drug use,Categorical,Policy Measures,TRUE
-A9_25,Policy: Relocating homeless people to a designated area where they can live as they wish with minimal regulations,Categorical,Policy Measures,FALSE
-A10_1,Agree/Disagree: The homeless are responsible for taking care of themselves,Categorical,Role of Government,FALSE
-A10_2,Agree/Disagree: The homeless are entitled to help from the government,Categorical,Role of Government,TRUE
-A10_3,Approximately how much more/less money should the government allocate towards solving the homelessness problem?,Categorical,Role of Government,TRUE
-A11_1,Estimated % of homeless population: Male,Categorical,Homeless Demographics,FALSE
-A11_2,Estimated % of homeless population: Female,Categorical,Homeless Demographics,FALSE
-A12_1,Estimated % of homeless population: LGBTQ+,Categorical,Homeless Demographics,FALSE
-A13_1,Estimated % of homeless population: Under age 18,Categorical,Homeless Demographics,FALSE
-A13_2,Estimated % of homeless population: Over age 65,Categorical,Homeless Demographics,FALSE
-A14_1,Estimated % of homeless population: White,Categorical,Homeless Demographics,FALSE
-A14_2,Estimated % of homeless population: Black/African American,Categorical,Homeless Demographics,FALSE
-A14_3,Estimated % of homeless population: Latino/Hispanic,Categorical,Homeless Demographics,FALSE
-A14_4,Estimated % of homeless population: Native American/American Indian,Categorical,Homeless Demographics,FALSE
-A14_5,Estimated % of homeless population: Asian/Pacific Islander,Categorical,Homeless Demographics,FALSE
-A15_1,Estimated % of homeless population: Families,Categorical,Homeless Demographics,FALSE
-A15_2,Estimated % of homeless population: Single adults,Categorical,Homeless Demographics,FALSE
-A16_1,Estimated % of homeless population: Sheltered,Categorical,Homeless Demographics,FALSE
-A16_2,Estimated % of homeless population: Unsheltered,Categorical,Homeless Demographics,FALSE
-A17_1,Average amount of time since a homeless person has last had housing,Categorical,Homeless Demographics,FALSE
-A18_1,Estimated % of homeless population: Chronically homeless,Categorical,Homeless Demographics,FALSE
-A19_1,Estimated % of homeless population: Any mental illness,Categorical,Homeless Demographics,FALSE
-A19_2,Estimated % of homeless population: Schizophrenia,Categorical,Homeless Demographics,FALSE
-A19_3,Estimated % of homeless population: Depression,Categorical,Homeless Demographics,FALSE
-A19_4,Estimated % of homeless population: Personality Disorder,Categorical,Homeless Demographics,FALSE
-A20_1,Estimated % of homeless population: Lifetime history of an alcohol or drug disorder,Categorical,Homeless Demographics,FALSE
-A20_2,Estimated % of homeless population: used alcohol,Categorical,Homeless Demographics,FALSE
-A20_3,Estimated % of homeless population: used cocaine or crack,Categorical,Homeless Demographics,FALSE
-A20_4,Estimated % of homeless population: used methamphetamines,Categorical,Homeless Demographics,FALSE
-A20_5,Estimated % of homeless population: used marijuana/cannabis,Categorical,Homeless Demographics,FALSE
-A20_6,Estimated % of homeless population: used cigarettes/vape,Categorical,Homeless Demographics,FALSE
-A21_1,Estimated % of homeless women: domestic violence,Categorical,Homeless Demographics,FALSE
-A22_1,Estimated % of homeless population: physically abused as a child,Categorical,Homeless Demographics,FALSE
-A22_2,Estimated % of homeless population: sexually abused as a child,Categorical,Homeless Demographics,FALSE
-A23_1,Estimated % homeless population: veterans,Categorical,Homeless Demographics,FALSE
-A24_1,How much do you think is spent on one emergency department visit per homeless person?,Categorical,Homeless Demographics,FALSE
-A25_1,"Do you think members of the homeless population commit suicide more than, less than, or the same as the general population?",Categorical,Homeless Demographics,FALSE
-A25_2,"If more, estimate how much more likely suicide is for the homeless individuals relative to the general population",Categorical,Homeless Demographics,FALSE
-A25_3,"If less, estimate how much more likely suicide is for the general population relative to homeless individuals",Categorical,Homeless Demographics,FALSE
-A26_1,% of homeless in LA: tested positive for COVID-19,Categorical,Homeless Demographics,FALSE
-A27_1,"In LA, what do you think is the cost of housing a homeless individual in a shelter per month?",Categorical,Homeless Demographics,FALSE
-A27_2,"In LA, what do you think is the cost of housing a homeless individual in a mental hospital per month?",Categorical,Homeless Demographics,FALSE
+A9_13,Policy: Homeless shelters that require people to be alcohol and drug-free,Integer,Policy Measures,FALSE
+A9_14,Policy: Committing homeless people with serious mental illness to mental hospitals for treatment,Integer,Policy Measures,FALSE
+A9_15,Policy: Increasing government aid to the homeless,Integer,Policy Measures,TRUE
+A9_16,Policy: Bans on sleeping in public areas,Integer,Policy Measures,FALSE
+A9_17,Policy: Bans on begging or panhandling,Integer,Policy Measures,FALSE
+A9_18,Policy: Building more low-income housing that homeless people can afford,Integer,Policy Measures,TRUE
+A9_19,Policy: Making homeless people take care of themselves by cutting off welfare benefits,Integer,Policy Measures,FALSE
+A9_20,Policy: Increasing the minimum wage that employers must pay,Integer,Policy Measures,TRUE
+A9_21,Policy: “Homeless sweeps”,Integer,Policy Measures,FALSE
+A9_22,Policy: Housing First,Integer,Policy Measures,TRUE
+A9_23,Policy: Converting old hotels and buildings to homeless shelters/live-in treatment centers,Integer,Policy Measures,FALSE
+A9_24,Policy: Rehabilitation centers that have no requirements regarding alcohol and drug use,Integer,Policy Measures,TRUE
+A9_25,Policy: Relocating homeless people to a designated area where they can live as they wish with minimal regulations,Integer,Policy Measures,FALSE
+A10_1,Agree/Disagree: The homeless are responsible for taking care of themselves,Integer,Role of Government,FALSE
+A10_2,Agree/Disagree: The homeless are entitled to help from the government,Integer,Role of Government,TRUE
+A10_3,Approximately how much more/less money should the government allocate towards solving the homelessness problem?,Categorical,Role of Government,FALSE
+A11_1,Estimated % of homeless population: Male,Scalar,Homeless Demographics,FALSE
+A11_2,Estimated % of homeless population: Female,Scalar,Homeless Demographics,FALSE
+A12_3,Estimated % of homeless population: LGBTQ+,Scalar,Homeless Demographics,FALSE
+A13_1,Estimated % of homeless population: Under age 18,Scalar,Homeless Demographics,FALSE
+A13_2,Estimated % of homeless population: Over age 65,Scalar,Homeless Demographics,FALSE
+A14_1,Estimated % of homeless population: White,Scalar,Homeless Demographics,FALSE
+A14_2,Estimated % of homeless population: Black/African American,Scalar,Homeless Demographics,FALSE
+A14_3,Estimated % of homeless population: Latino/Hispanic,Scalar,Homeless Demographics,FALSE
+A14_4,Estimated % of homeless population: Native American/American Indian,Scalar,Homeless Demographics,FALSE
+A14_5,Estimated % of homeless population: Asian/Pacific Islander,Scalar,Homeless Demographics,FALSE
+A15_1,Estimated % of homeless population: Families,Scalar,Homeless Demographics,FALSE
+A15_2,Estimated % of homeless population: Single adults,Scalar,Homeless Demographics,FALSE
+A16_1,Estimated % of homeless population: Sheltered,Scalar,Homeless Demographics,FALSE
+A16_2,Estimated % of homeless population: Unsheltered,Scalar,Homeless Demographics,FALSE
+A17_1,Average amount of time since a homeless person has last had housing,Scalar,Homeless Demographics,FALSE
+A18_1,Estimated % of homeless population: Chronically homeless,Scalar,Homeless Demographics,FALSE
+A19_1,Estimated % of homeless population: Any mental illness,Scalar,Homeless Demographics,FALSE
+A19_2,Estimated % of homeless population: Schizophrenia,Scalar,Homeless Demographics,FALSE
+A19_3,Estimated % of homeless population: Depression,Scalar,Homeless Demographics,FALSE
+A19_4,Estimated % of homeless population: Personality Disorder,Scalar,Homeless Demographics,FALSE
+A20_1,Estimated % of homeless population: Lifetime history of an alcohol or drug disorder,Scalar,Homeless Demographics,FALSE
+A20_2,Estimated % of homeless population: used alcohol,Scalar,Homeless Demographics,FALSE
+A20_3,Estimated % of homeless population: used cocaine or crack,Scalar,Homeless Demographics,FALSE
+A20_4,Estimated % of homeless population: used methamphetamines,Scalar,Homeless Demographics,FALSE
+A20_5,Estimated % of homeless population: used marijuana/cannabis,Scalar,Homeless Demographics,FALSE
+A20_6,Estimated % of homeless population: used cigarettes/vape,Scalar,Homeless Demographics,FALSE
+A21_1,Estimated % of homeless women: domestic violence,Scalar,Homeless Demographics,FALSE
+A22_1,Estimated % of homeless population: physically abused as a child,Scalar,Homeless Demographics,FALSE
+A22_2,Estimated % of homeless population: sexually abused as a child,Scalar,Homeless Demographics,FALSE
+A23_1,Estimated % homeless population: veterans,Scalar,Homeless Demographics,FALSE
+A24_1,How much do you think is spent on one emergency department visit per homeless person?,Scalar,Homeless Demographics,FALSE
+A25_1,"Do you think members of the homeless population commit suicide more than, less than, or the same as the general population?",Scalar,Homeless Demographics,FALSE
+A25_2,"If more, estimate how much more likely suicide is for the homeless individuals relative to the general population",Scalar,Homeless Demographics,FALSE
+A25_3,"If less, estimate how much more likely suicide is for the general population relative to homeless individuals",Scalar,Homeless Demographics,FALSE
+A26_1,% of homeless in LA: tested positive for COVID-19,Scalar,Homeless Demographics,FALSE
+A27_1,"In LA, what do you think is the cost of housing a homeless individual in a shelter per month?",Scalar,Homeless Demographics,FALSE
+A27_2,"In LA, what do you think is the cost of housing a homeless individual in a mental hospital per month?",Scalar,Homeless Demographics,FALSE
 A28_1,What is your age?,Scalar,Participant Demographics,FALSE
 A28_2,"What is your gender? [1 = Male, 2 = Female, 3 = Nonbinary/Agender, 4 = Prefer not to say]",Categorical,Participant Demographics,FALSE
 A28_3,"What is your ethnicity? [1 = white, 2 = Hispanic/Latino, 3 = Black or African American, 4 = Native American or American Indian, 5 = Asian/Pacific Islander, 6 = Multiple ethnicities, 7 = Other, 8 = Prefer not to say]",Categorical,Participant Demographics,FALSE
 A28_4,Estimate the yearly income of your household.,Scalar,Participant Demographics,FALSE
 A28_5,How many years have you lived in CA?,Scalar,Participant Demographics,FALSE
-A28_6,What county in California do you live in?,Categorical,Participant Demographics,FALSE
+A28_6,What county in California do you live in?,Character,Participant Demographics,FALSE
 A28_7,"How often do you see homeless individuals in your community? [1 = Almost always, 2 = Sometimes, 3 = Rarely, 4 = Never]",Categorical,Participant Demographics,FALSE
 A28_8,Have you ever been homeless?,Binary,Participant Demographics,FALSE
 A28_9,"Which political party do you most identify with? [1 = Democrat, 2 = Republican, 3 = Independent, 4 = Other, 5 = None/Apolitical]",Categorical,Participant Demographics,FALSE
@@ -152,4 +153,4 @@ A29_1,"For our analyses, it is important that we only include responses who answ
 A29_2,"How carefully did you read the survey items when you were completing them? 
  [Not at all = 1, A little = 2, Somewhat = 3, Mostly = 4, Very = 5, Extremely = 6]",Categorical,Attention Check Questions,FALSE
 A29_3,Have you taken this survey before?,Binary,Attention Check Questions,FALSE
-A30_1,RANDOM ID,Categorical,Attention Check Questions,FALSE
+A30_1,RANDOM ID,Character,Attention Check Questions,FALSE
