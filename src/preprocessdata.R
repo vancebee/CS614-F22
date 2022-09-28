@@ -133,4 +133,5 @@ df$trust_obs = df %>% select(A5_8, A7_17, A9_12, A29_1, A29_2, A29_3) %>%
          A29_3_b = case_when(A29_3 == '2' ~ 1, TRUE ~ 0)) %>% 
   group_by(A5_8_b, A7_17_b, A9_12_b, A29_1_b, A29_2_b, A29_3_b) %>% 
   mutate(att_checks=A5_8_b+A7_17_b+A9_12_b, trust_data=A29_1_b+A29_2_b+A29_3_b) %>% 
-  mutate(type = case_when(att_checks >= 2 & trust_data >= 2 ~ 1, TRUE ~ 0))                       
+  mutate(type = case_when(att_checks >= 2 & trust_data >= 2 ~ 1, TRUE ~ 0)) %>%
+  select(type)
