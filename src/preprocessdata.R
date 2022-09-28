@@ -32,28 +32,44 @@ df = df  %>% mutate_at(to_be_recoded$ColumnLabel,
 
 #Merge 'nonbinary' and 'prefer not to say'gender selection
 df$A28_2 <- plyr::mapvalues(df$A28_2,
-                                        from = c("4"),
-                                        to = c("3"))
+                            from = c("4"),
+                            to = c("3"))
+df$A28_2 <- plyr::mapvalues(df$A28_2,
+                            from = c("1","2","3"),
+                            to = c("Male","Female","Other"))
 
 #Create White (1), Hispanic (2), Black (3), Asian (5) & Other (4) Ethnicity 
 df$A28_3 <- plyr::mapvalues(df$A28_3,
                                         from = c("4","6","7","8"),
                                         to = c("4","4","4","4"))
+df$A28_3 <- plyr::mapvalues(df$A28_3,
+                            from = c("1","2","3","4"),
+                            to = c("White","Hispanic/Latino","Black/African American","Other"))
 
 #Merge rarely & never levels for frequency see homeless
 df$A28_7 <- plyr::mapvalues(df$A28_7,
                                         from = c("4"),
                                         to = c("3"))
+df$A28_7 <- plyr::mapvalues(df$A28_7,
+                            from = c("1","2","3"),
+                            to = c("Almost Always", "Sometimes", "Rarely to Never"))
 
 #Merge independent, other, and non/apolitical levels
 df$A28_9 <- plyr::mapvalues(df$A28_9,
                                         from = c("3","4","5"),
                                         to = c("3","3","3"))
+df$A28_9 <- plyr::mapvalues(df$A28_9,
+                            from = c("1","2","3"),
+                            to = c("Democrat","Republican","Other"))
 
-#Create extermely liberal(1), liberal (2), moderate (3), cons.(4), and extremely conservative
+#Create extremely liberal(1), liberal (2), moderate (3), cons.(4), and extremely conservative
 df$A28_10 <- plyr::mapvalues(df$A28_10,
                                         from = c("3","4","5", "8"),
                                         to = c("3","3","3","3"))
+
+df$A28_10 <- plyr::mapvalues(df$A28_10,
+                             from = c("1","2","3", "4"),
+                             to = c("extremely liberal","liberal","moderate","cons."))
 
 ######################################################
 ###########HANDS ON ACTIVITY: LECTURE 3###############
