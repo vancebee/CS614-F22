@@ -64,12 +64,12 @@ df$A28_9 <- plyr::mapvalues(df$A28_9,
 
 #Create extremely liberal(1), liberal (2), moderate (3), cons.(4), and extremely conservative
 df$A28_10 <- plyr::mapvalues(df$A28_10,
-                                        from = c("3","4","5", "8"),
-                                        to = c("3","3","3","3"))
+                                        from = c("1","2","3","4","5","6","7","8"),
+                                        to =   c("1","2","3","3","3","4","5","3"))
 
 df$A28_10 <- plyr::mapvalues(df$A28_10,
-                             from = c("1","2","3", "4"),
-                             to = c("extremely liberal","liberal","moderate","cons."))
+                             from = c("1","2","3", "4", "5"),
+                             to = c("ext lib","lib","moderate","cons", "ext cons"))
 
 ######################################################
 ###########HANDS ON ACTIVITY: LECTURE 3###############
