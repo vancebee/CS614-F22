@@ -46,6 +46,8 @@ df$A28_3 <- plyr::mapvalues(df$A28_3,
                             from = c("1","2","3","4"),
                             to = c("White","Hispanic/Latino","Black/African American","Other"))
 
+df$A28_3 = factor(df$A28_3, levels = c("White","Hispanic/Latino","Black/African American","Other"))
+
 #Merge rarely & never levels for frequency see homeless
 df$A28_7 <- plyr::mapvalues(df$A28_7,
                                         from = c("4"),
@@ -70,6 +72,8 @@ df$A28_10 <- plyr::mapvalues(df$A28_10,
 df$A28_10 <- plyr::mapvalues(df$A28_10,
                              from = c("1","2","3", "4", "5"),
                              to = c("ext lib","lib","moderate","cons", "ext cons"))
+
+df$A28_10 = factor(df$A28_10, levels = c("ext lib","lib","moderate","cons", "ext cons"))
 
 ######################################################
 ###########HANDS ON ACTIVITY: LECTURE 3###############
@@ -101,9 +105,9 @@ for (x in 1:length(df$A28_6)){
   df$A28_6[x]= str_remove(df$A28_6[x], "county")
   df$A28_6[x]= str_remove(df$A28_6[x], " ca")
   
-  if (!df$A28_6[x] %in% countylist){
-    print(df$A28_6[x])
-  }
+  # if (!df$A28_6[x] %in% countylist){
+  #   print(df$A28_6[x])
+  # }
 }
 
 #Assign responses that listed cities to the proper county
@@ -130,14 +134,13 @@ df$A28_6[df$A28_6 %in% c("danville")] = "contra costa"
 df$A28_6[df$A28_6 %in% c("thousand oaks")] = "ventura"
 
 #map counties
-df$A28_6[df$A28_6 %in% c("yolo", "san joaquin","calaveras","amador", "el dorado", "butte", "placer", "shasta","butte","humboldt", "marin")] = "sacramento"
-df$A28_6[df$A28_6 %in% c("monterey", "santa barbara", "kern", "ventura")] = "san luis obispo"
-df$A28_6[df$A28_6 %in% c("sonoma", "mendocino")] = "marin"
-df$A28_6[df$A28_6 %in% c("alameda", "contra costa", "solano")] = "san francisco"
-df$A28_6[df$A28_6 %in% c("tulare","madera", "kings", "inyo","tuolumne", "merced", "stanislaus", "alpine")] = "fresno"
-df$A28_6[df$A28_6 %in% c("san mateo","santa cruz")] = "santa clara"
-
-sort(table(df['A28_6']), decreasing = TRUE)
+df$A28_6_rgn = df$A28_6
+df$A28_6_rgn[df$A28_6 %in% c("yolo", "san joaquin","calaveras","amador", "el dorado", "butte", "placer", "shasta","butte","humboldt", "marin")] = "sacramento"
+df$A28_6_rgn[df$A28_6 %in% c("monterey", "santa barbara", "kern", "ventura")] = "san luis obispo"
+df$A28_6_rgn[df$A28_6 %in% c("sonoma", "mendocino")] = "marin"
+df$A28_6_rgn[df$A28_6 %in% c("alameda", "contra costa", "solano")] = "san francisco"
+df$A28_6_rgn[df$A28_6 %in% c("tulare","madera", "kings", "inyo","tuolumne", "merced", "stanislaus", "alpine")] = "fresno"
+df$A28_6_rgn[df$A28_6 %in% c("san mateo","santa cruz")] = "santa clara"
 
 #####Establish Inclusion Criteria#####
 df$trust_obs = df %>% select(A5_8, A7_17, A9_12, A29_1, A29_2, A29_3) %>%
